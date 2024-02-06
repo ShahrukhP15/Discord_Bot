@@ -32,7 +32,7 @@ async def break_reminder():
         return
     
     channel = bot.get_channel(Channel_ID)
-    await channel.send(f"**Take a break!!** Your session has been running for {MAX_SESSION} minutes.")
+    await channel.send(f"**Take a break!!** Your session has been running for {MAX_SESSION_TIME} minutes.")
 
 @bot.command()
 async def hello(ctx):
